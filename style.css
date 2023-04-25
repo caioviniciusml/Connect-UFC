@@ -1,0 +1,223 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #2360de;
+    margin: 20px 70px;
+    background-color: #F9F9F9;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+button{
+    cursor: pointer;
+}
+#homepage-header{
+    display: flex;
+    align-items: center;
+}
+#connect-ufc-logo{
+    margin: 0;
+}
+#connect-ufc-logo img{
+    width: auto;
+    height: 6em;
+}
+#homepage-nav{
+    display: flex;
+    margin: 0 20px;
+    width: 40%;
+    justify-content: space-evenly;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#homepage-nav a{
+    text-decoration: none;
+    color: inherit;
+}
+#homepage-nav a:hover{
+    font-weight: 900;
+}
+#header-buttons{
+    margin-left: auto;
+}
+#header-buttons button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin: 0 5px;
+    border: 2px solid #2360de;
+}
+#register-button{
+    background: none;
+    color: inherit;
+}
+#register-button:hover{
+    background-color: #2360de;
+    color: #F9F9F9;
+}
+#login-button{
+    background-color: #2360de;
+    border: none;
+    color: #F9F9F9;
+}
+#login-button:hover{
+    box-shadow: 2px 2px 10px #163c8c;
+}
+#homepage-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+#main-content-text p{
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 1.4em;
+    padding-left: 15px;
+}
+#main-content-text p::first-letter{
+    padding-left: 0;
+}
+#main-content-text p{
+    margin: 0;
+}
+#main-content-image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#main-content-image img{
+    height: auto;
+    width: 50vw;
+}
+#connect-ufc-features{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+} 
+.feature-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2360de;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+.feature-box a{
+    text-decoration: none;
+    color: #F9F9F9;
+    font-weight: 600;
+}
+.feature-box:hover{
+    box-shadow: 5px 5px 20px rgb(92, 92, 92);
+}
+.main-content p{
+    font-size: 20px;
+}
+.main-content p::first-letter{
+    padding-left: 40px;
+}
+#intracampus img{
+    height: 120px;
+    width: auto;
+}
+#intracampus img:hover{
+    transition: 0.5s;
+    height: 150px;
+    width: auto;
+}
+#intracampus-content{
+    display: flex;
+    justify-content: space-between;
+}
+#intracampus-route{
+    width: 45%;
+}
+#intracampus-route img{
+    max-width: 100%;
+    height: auto;
+}
+#intracampus-stops{
+    width: 50%;
+}
+#intracampus-route img{
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(92, 92, 92);
+}
+#intracampus-stops{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#intracampus-stops-header{
+    display: flex;
+    align-items: center;
+}
+#intracampus-stops-header h2{
+    font-size: 45px;
+}
+#intracampus-stops-header img{
+    align-self: flex-end;
+    height: 180px;
+    width: auto;
+    transform: translateX(-30px);
+}
+#intracampus-stops-alarms{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 20px 225px;
+}
+.intracampus-stops-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #2360de;
+    width: 280px;
+    height: 87px;
+    color: #F9F9F9;
+    font-size: 20px;
+    font-weight: 700;
+}
+.intracampus-stops-box:hover{
+    box-shadow: 2px 2px 10px rgb(92, 92, 92);
+}
+.intracampus-stops-box:nth-of-type(1){
+    background-color: #bbb;
+}
+.intracampus-stops-box:nth-of-type(2){
+    background-color: #bbb;
+}
+.intracampus-stops-box:nth-of-type(3){
+    background-color: #bbb;
+}
+.intracampus-stops-box:nth-of-type(4){
+    background-color: #bbb;
+}
+.intracampus-stops-box:nth-of-type(5){
+    background-color: #bbb;
+}
+.column-rule{
+    height: 3em;
+    width: 0.15em;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+}
+#alarm-text{
+    width: 4em;
+}
+#meteorology-infos{
+    width: 60%;
+}
+#meteorology-main-image{
+    width: 40%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: 600;
+}
