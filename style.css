@@ -70,6 +70,7 @@ button{
     height: 400px;
 }
 #main-content-text p{
+    margin: 0;
     font-weight: 800;
     font-size: 70px;
     line-height: 1.4em;
@@ -78,8 +79,11 @@ button{
 #main-content-text p::first-letter{
     padding-left: 0;
 }
-#main-content-text p{
-    margin: 0;
+.main-content p{
+    font-size: 20px;
+}
+.main-content p::first-letter{
+    padding-left: 40px;
 }
 #main-content-image{
     display: flex;
@@ -97,6 +101,20 @@ button{
 } 
 .feature-box{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F9F9F9;
+}
+.feature-box:hover{
+    color: #2360de;
+}
+.icon-box{
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #2360de;
@@ -104,27 +122,25 @@ button{
     height: 200px;
     border-radius: 30px;
 }
-.feature-box a{
-    text-decoration: none;
-    color: #F9F9F9;
-    font-weight: 600;
-}
-.feature-box:hover{
+.icon-box:hover{
     box-shadow: 5px 5px 20px rgb(92, 92, 92);
 }
-.main-content p{
-    font-size: 20px;
-}
-.main-content p::first-letter{
-    padding-left: 40px;
-}
-#intracampus img{
+#intracampus-icon img{
     height: 120px;
     width: auto;
 }
-#intracampus img:hover{
+#intracampus-icon img:hover{
     transition: 0.5s;
-    height: 150px;
+    height: 180px;
+    width: auto;
+}
+#meteorology-icon img{
+    height: 160px;
+    width: auto;
+}
+#meteorology-icon img:hover{
+    transition: 0.5s;
+    height: 250px;
     width: auto;
 }
 #intracampus-content{
