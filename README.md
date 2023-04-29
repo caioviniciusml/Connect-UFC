@@ -38,4 +38,7 @@ Matheus Nunes Vieira - [matheusnunes@alu.ufc.br]
 
 ## Imagens do Projeto:
 Concepção do Projeto e Identidade Visual:
-![Isso é uma imagem]()
+![Isso é uma imagem](https://github.com/caioviniciusml/Connect-UFC/blob/main/images/Project%20Concept%20Connect%20UFC.png)
+
+Prototipagem - UI Connect UFC:
+![Isso é uma imagem](https://github.com/caioviniciusml/Connect-UFC/blob/main/images/UI%20Connect%20UFC.png)
