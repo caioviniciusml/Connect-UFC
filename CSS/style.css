@@ -1,0 +1,68 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #2360de;
+    margin: 20px 70px;
+    background-color: #F9F9F9;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+button{
+    cursor: pointer;
+}
+#meteorology-content{
+    display: flex;
+    flex-direction: column;
+}
+#meteorology-infos{
+    margin: 20px 0;
+}
+#today-meteorology{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    background-color: #FED16E;
+    border-radius: 25px;
+}
+#today-meteorology-info{
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 700;
+}
+#temperature, #weather{
+    color: #163c8c;
+    font-size: 32px;
+}
+#temperature{
+    font-size: 68px;
+}
+#today-meteorology-icon{
+    width: auto;
+    height: 70%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: 600;
+}
+@media screen and (min-width: 0) and (max-width: 480px) {
+    body{
+        margin: 30px;
+    }
+    h1{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+}

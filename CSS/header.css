@@ -1,0 +1,72 @@
+#connect-ufc-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#connect-ufc-logo{
+    width: 300px;
+}
+#connect-ufc-nav{
+    display: flex;
+    flex-grow: 1;
+}
+#connect-ufc-nav a{
+    margin: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: inherit;
+}
+#connect-ufc-nav a:hover{
+    font-weight: 900;
+}
+#account-buttons{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#account-buttons button{
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-weight: 700;
+    border: 2px solid #2360de;
+    border-radius: 20px;
+}
+#register-button{
+    background-color: inherit;
+    color: inherit;
+}
+#register-button:hover{
+    background-color: #2360de;
+    color: #F9F9F9;
+}
+#login-button{
+    background-color: #2360de;
+    border: none;
+    color: #F9F9F9;
+}
+#login-button:hover{
+    box-shadow: 2px 2px 10px #163c8c;
+}
+@media screen and (max-width: 1180px){
+    #connect-ufc-header{
+        flex-direction: column;
+    }
+    #connect-ufc-nav a{
+        margin: 10px 20px 30px 20px;
+    }
+}
+@media screen and (max-width: 520px){
+    #connect-ufc-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    #connect-ufc-nav a{
+        margin: 15px ;
+    }
+    #account-buttons{
+        margin: 10px 0;
+    }
+}

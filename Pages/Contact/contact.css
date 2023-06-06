@@ -1,0 +1,34 @@
+#contact-infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#container{
+    margin: 100px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    width: 50%;
+    min-width: 400px;
+    border-radius: 25px;
+    font-weight: bolder;
+    color: white;
+    background-color: #054ADA;
+}
+#email{
+    padding: 10px 20px;
+    background-color: #FED16E;
+    border-radius: 15px;
+}
+@media screen and (min-width: 0) and (max-width: 480px){
+    #contact-infos{
+        font-size: 24px;
+    }
+    #container{
+        min-width: 80%;
+    }
+}
