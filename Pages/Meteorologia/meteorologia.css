@@ -1,0 +1,86 @@
+#meteorologia-content{
+    margin: 20px 0;
+}
+#weather-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#actual-weather{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 40%;
+    background-color: #FED16E;
+    border-radius: 25px;
+}
+#actual-weather-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+#text1{
+    margin: 10px 0;
+    color: #16418E;
+    font-size: 48px;
+}
+#text2{
+    margin: 5px 0;
+    color: #16418E;
+    font-size: 30px;
+}
+#actual-weather-icon{
+    height: 70%;
+    width: 40%;
+}   
+#others-weathers{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 55%;
+    min-width: 650px;
+}
+#weather-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+.weather-box{
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    color: white;
+    font-weight: 700;
+    background-color: #16418E;
+    border-radius: 20px;
+}
+#weather-box-icon{
+    margin: 10px 0;
+    width: 50px;
+}
+#weather-alarm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    font-size: 22px;
+    font-weight: 800;
+}
+#weather-simbol{
+    margin: 0 10px;
+    height: 25px;
+    width: 25px;
+    background-color: #FED16E;
+    border-radius: 15px;
+}
